@@ -1,6 +1,6 @@
 # Image Classification using Convolutional Neural Networks (CNN)
 
-This project is part of my Mawakay ML Internship and involves developing a Convolutional Neural Network (CNN) model to classify images into different categories. The task includes data preprocessing, model implementation, training, evaluation, and additional challenges like data augmentation and fine-tuning a pre-trained model.
+This project involves developing a Convolutional Neural Network (CNN) model to classify images into different categories. The task includes data preprocessing, model implementation, training, evaluation, and additional challenges like data augmentation and fine-tuning a pre-trained model.
 
 ## Dataset
 
@@ -32,24 +32,9 @@ To enhance the model's performance and increase the size of the dataset, data au
 ### 2. Fine-tune Pre-trained Model
 A pre-trained CNN model, specifically VGG16, was fine-tuned on the dataset. This involved leveraging the pre-trained model's feature extraction capabilities and adjusting the final layers to adapt to the specific image categories.
 
-## Frontend and Backend Implementation
-
-### Frontend
-A simple frontend was created using HTML, CSS, and JavaScript to interact with the trained model. The frontend allows users to upload an image and receive the classification output. A screenshot of the frontend can be found in `Demo.png`.
-
-### Backend
-The backend was developed using Flask. The Flask application (`app.py`) handles image uploads, processes the images using the trained model, and returns the classification results.
-
 ## Testing the Model
 
 In the `task_03.ipynb` notebook, an example is provided to test the model. The example demonstrates how to use the model to classify a new image by accepting a picture and giving the classification output.
-
-## File Structure
-
-- `task_03.ipynb`: Main Jupyter Notebook containing the implementation and testing of the CNN model.
-- `app.py`: Flask backend for handling image uploads and classification.
-- `index.html`: Frontend HTML file for user interaction.
-- `Demo.png`: Screenshot of the frontend interface.
 
 ## Conclusion
 
